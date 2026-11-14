@@ -1,5 +1,5 @@
 ! name: Academic Results Boost
-! description: Boosts scholarly, scientific, and educational sources in Brave Search.
+! description: Boosts scholarly, scientific, mathematical, and educational sources in Brave Search, with more learning resources and less wiki-heavy results.
 ! public: false
 ! author: tsap0185
 ! homepage: https://github.com/tsap0185/academic-brave-goggle
@@ -14,10 +14,19 @@ $boost=8,site=sciencedirect.com
 $boost=8,site=springer.com
 $boost=8,site=wiley.com
 $boost=8,site=plos.org
+$boost=8,site=*.edu
+$boost=8,site=openstax.org
+$boost=8,site=libretexts.org
+$boost=8,site=ocw.mit.edu
 $boost=7,site=ssrn.com
 $boost=7,site=researchgate.net
 $boost=7,site=scholar.google.com
+$boost=7,site=mathworld.wolfram.com
+$boost=7,site=pressbooks.pub
+$boost=7,site=oercommons.org
+$boost=7,site=khanacademy.org
 
+$downrank=2,site=wikipedia.org
 $downrank=5,site=pinterest.com
 $downrank=5,site=quora.com
 $downrank=4,site=facebook.com
